@@ -1,0 +1,11 @@
+{
+  "name": "lib-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rafgoncalves",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mustache": "^4.2.0"
+  }
+}

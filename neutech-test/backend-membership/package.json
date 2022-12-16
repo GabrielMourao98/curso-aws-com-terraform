@@ -1,0 +1,26 @@
+{
+  "name": "backend-membership",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rafgoncalves",
+  "license": "MIT",
+  "scripts": {
+    "migrate": "knex migrate:latest --knexfile src/db/knexfile.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "knex": "^2.3.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^6.1.0",
+    "koa-jwt": "^4.0.3",
+    "koa-router": "^12.0.0",
+    "lib-validator": "1.0.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

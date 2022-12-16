@@ -1,0 +1,10 @@
+{
+  "name": "lib-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rafgoncalves",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.11.2"
+  }
+}

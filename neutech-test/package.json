@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "frontend", 
+    "backend-membership", 
+    "workers-quickbooks",
+    "lib-validator",
+    "lib-frontend"
+  ],
+  "version": "1.0.0"
+}
