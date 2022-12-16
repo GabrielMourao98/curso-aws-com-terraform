@@ -1,6 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
+  - package-ecosystem: "npm" 
+    directory: "/" 
+    schedule: 
       interval: "weekly"
+    schedule.day: "monday"
+
+  - packed-ecosystem: "docker"
+    diretory: "/"
+    schedule: 
+      interval: "daily"
